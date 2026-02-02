@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thế Giới In 3D - Công Nghệ Tương Lai</title>
+    <style>
+        /* CSS Reset và Style cơ bản */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                        url('https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 { font-size: 3rem; margin-bottom: 10px; }
+
+        /* Main Content */
+        .container {
+            max-width: 1100px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        section { padding: 40px 0; border-bottom: 1px solid #ddd; }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 { color: #e67e22; }
+
+        /* Footer */
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>3D Printing Hub</h1>
+        <nav>
+            <a href="#about">Giới Thiệu</a>
+            <a href="#tech">Công Nghệ</a>
+            <a href="#apps">Ứng Dụng</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div>
+            <h1>Biến Ý Tưởng Thành Hiện Thực</h1>
+            <p>Khám phá sức mạnh của công nghệ bồi đắp vật liệu</p>
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <section id="about">
+            <h2>In 3D là gì?</h2>
+            <p>In 3D (hay còn gọi là Sản xuất bồi đắp) là một quá trình chế tạo các vật thể ba chiều từ một tệp kỹ thuật số. Quá trình này được thực hiện bằng cách xếp chồng các lớp vật liệu mỏng lên nhau cho đến khi vật thể được hoàn thành.</p>
+        </section>
+
+        
+
+[Image of 3D printing process diagram]
+
+
+        <section id="tech">
+            <h2>Các Công Nghệ Phổ Biến</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>FDM (Fused Deposition Modeling)</h3>
+                    <p>Công nghệ phổ biến nhất, sử dụng nhựa nhiệt dẻo nung chảy qua đầu đùn. Rẻ và dễ tiếp cận.</p>
+                </div>
+                <div class="card">
+                    <h3>SLA (Stereolithography)</h3>
+                    <p>Sử dụng tia laser cực tím để làm đông cứng nhựa lỏng (resin). Độ chi tiết cực cao.</p>
+                </div>
+                <div class="card">
+                    <h3>SLS (Selective Laser Sintering)</h3>
+                    <p>Sử dụng laser để thiêu kết các hạt bột vật liệu (thường là nylon) thành cấu trúc rắn.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="apps">
+            <h2>Ứng Dụng Thực Tế</h2>
+            <ul>
+                <li><strong>Y tế:</strong> Sản xuất răng hàm mặt, bộ phận giả, và mô phỏng phẫu thuật.</li>
+                <li><strong>Kiến trúc:</strong> Tạo sa bàn chi tiết và thậm chí là in nhà bằng bê tông.</li>
+                <li><strong>Công nghiệp:</strong> Sản xuất linh kiện ô tô, máy bay và công cụ sản xuất.</li>
+                <li><strong>Thời trang:</strong> Trang sức và các phụ kiện độc bản.</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Giới Thiệu In 3D. Tạo bởi Gemini.</p>
+    </footer>
+
+</body>
+</html>
